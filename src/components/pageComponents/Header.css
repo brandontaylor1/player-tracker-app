@@ -1,0 +1,32 @@
+root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+
+
+.navbrand h1 {
+    font-family: 'Campus Personal use', serif;
+    font-size: 2vw;
+}
